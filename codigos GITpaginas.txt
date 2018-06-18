@@ -1,0 +1,30 @@
+git init: cria um pasta (fica escondida)
+
+criar um pasta " .gitignore " e colocar dentro dele todos os arquivos que não queira que o git veja
+
+git status: mostra o status do repositório, se os arquivos estão sendo manipulados pelo git
+
+git add "nome do arquivo.*": adiciona o arquivo no git, para controlar 
+
+gir reset HEAD "nome do arquivo": para tirar ele da area staged
+
+git rm nome do arquivo: para deletar o arquivo 
+
+
+git commit: salva as mudancas do projeto e manda
+  git commit -m "Uma Mensagem"
+  git commit -a -m "Uma Mensagem"(ele pula a parte do "add" )
+   git commit --amend -m "Uma mensagem"(caso mande um commit sem querer, antes de fazer todas as alterações, ele irá substituir o ultimo por este novo)
+
+git diff: mostra as alterações que foram feitas antes de ser "adicionadas"
+git diff --staged:mostra as alterações que estão na area staged (q foram adicionadas)
+
+git log: mostra todos commit que foram feitos
+  git log -p (mostra 1 por 1)
+  git log --pretty=oneline (mostra somente os códigos e a mensagem)
+
+gitk: mostra as alterações em uma interface 
+
+git checkout --"nome do arquivo"(volta a ultima versão do arquivo)
+
+

@@ -1,0 +1,15 @@
+git remote add origin https://github.com/LukasPol/URI_Online_Judge.git
+
+git remote add origin https://github.com/LukasPol/Exercicios_Python_cursos.git
+
+git remote add origin https://github.com/LukasPol/Exe-Python-IFRN.git
+
+git pull orgin master
+
+git push -u origin master
+
+git remote set-url origin <url do repositorio>
+
+git remote -v (verificar qual repositorio voce está)
+
+https://github.com/LukasPol/Exe-Python-IFRN.git

@@ -1,0 +1,12 @@
+git init: cria um pasta (fica escondida)
+
+git status: mostra o status do repositório, se os arquivos estão sendo manipulados pelo git
+
+git add "nome do arquivo.*": adiciona o arquivo no git, para controlar 
+
+git commit: salva as mudancas do projeto e manda
+git commit -m "Uma Mensagem"
+git commit -a -m "Uma Mensagem"(ele pula a parte do "aa" )
+
+
+criar um pasta " .gitignore " e colocar dentro dele todos os arquivos que não queira que o git veja
