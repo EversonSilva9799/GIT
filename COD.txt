@@ -13,3 +13,5 @@ git remote set-url origin <url do repositorio>
 git remote -v (verificar qual repositorio voce está)
 
 https://github.com/LukasPol/Exe-Python-IFRN.git
+
+
